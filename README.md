@@ -23,7 +23,7 @@ Usage
 
 At first, import widget classes in view file where you want create poll
 
-use pollext\poll\Poll;
+use nikser\poll\Poll;
 Then invoke the widget and specify the name of the poll and the response options
 
 

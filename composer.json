@@ -1,5 +1,5 @@
 {
-    "name": "pollext/poll",
+    "name": "nikser/pollext",
     "description": "Widget to create custom polls for Yii 2.0 framework",
     "keywords": ["yii2", "poll", "widget", "poll-widget", "yii2-poll-widget"],
     "type": "yii2-extension",
@@ -7,18 +7,22 @@
     "license": "BSD-2-Clause",
     "support": {
         "forum": "http://www.yiiframework.com/forum/index.php/topic/62608-yii2-poll-widget/",
-        "source": "https://github.com/Dzhus111/pollext"
+        "source": "https://github.com/nikser/pollext"
     },
     "authors": [
         {
             "name": "Sergey Dzhus",
             "email": "Dzhus1111@gmail.com"
+        },
+        {
+            "name": "Nikolay Efimov",
+            "email": "ef.nik.ser@gmail.com"
         }
     ],
     "require": {
         "yiisoft/yii2": "*"
     },
     "autoload": {
-        "psr-4": { "pollext\\poll\\": "" }
+        "psr-4": { "nikser\\pollext\\": "" }
     }
 }
