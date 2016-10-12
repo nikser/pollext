@@ -23,6 +23,6 @@
         "yiisoft/yii2": "*"
     },
     "autoload": {
-        "psr-4": { "nikser\\pollext\\": "" }
+        "psr-4": { "nikser\\poll\\": "" }
     }
 }
